@@ -1,0 +1,56 @@
+:root {
+    --fill-color: #1173d4;
+    --titles-color: #ffffff;
+    --text-color-gray: #707982;
+    --background-color: #101922;
+    --secondary-background-color: #1e283b;
+    --secondary-fill-color: #1b3758;
+    --secondary-button-color: #334154;
+    --secondary-gray-color: #bcc7d3;
+   --font-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-primary);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    fill: var(--fill-color);
+}
+.title-web {
+    color: var(--titles-color);
+}
+.links a {
+    color: var(--secondary-gray-color);
+    font-family: var(--font-primary);
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.post-cv {
+    background-color: var(--secondary-fill-color);
+    color: var(--fill-color);
+    border: none;
+    border-radius: 5px;
+    padding: 9px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.perfil-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}

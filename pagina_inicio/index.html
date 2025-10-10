@@ -4,6 +4,12 @@
   <meta charset="utf-8"/>
   <title>DevJobs</title>
   <link rel="stylesheet" href="index.css">
+  <script>
+    const boton = document.querySelector('#login');
+    boton.addEventListener('click', () => {
+        alert('Has iniciado sesión');
+    })
+  </script>
  </head>
  <body>
     <header>
@@ -14,13 +20,14 @@
         </section>
         <section class="links">
             <a href="">Buscar</a>
-            <a href="">Empleos</a>
+            <a href="../resultados_busqueda/search.html">Empleos</a>
             <a href="">Empresas</a>
-            <a href="">Salarios</a>
+            <a id="salarios" href="">Salarios</a>
         </section>
         <section class="buttons">
             <button class="post-job">Publicar un empleo</button>
-            <button class="login">Iniciar Sesión</button>
+            <button 
+             class="login">Iniciar Sesión</button>
         </section>
     </header>
     <section class="hero">

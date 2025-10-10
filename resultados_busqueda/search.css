@@ -77,6 +77,8 @@ header {
     font-weight: bold;
     cursor: pointer;
     margin-right: 10px;
+    width: 95px;
+    height: 37px;
 }
 .post-cv:hover {
     background-color: var(--secondary-fill-color-hover);
@@ -98,4 +100,33 @@ header hr {
     position: absolute;
     top: 70px;
     left: 0;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h1 {
+    color: var(--titles-color);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.hero p {
+    color: var(--secondary-gray-color);
+    font-size: 20px;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 2rem;
+    
+    a{
+        display: flex;
+        ********
+    }
 }

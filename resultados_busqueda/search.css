@@ -310,6 +310,31 @@ header hr {
 .search-bar button:active {
     background-color: var(--secondary-fill-color);
 }
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 1rem;
+    gap: 1rem;
+    margin-left: 65px;
+}
+
+.filter-group select{
+    color: white;
+    background-color: var(--secondary-background-color);
+    outline: none;
+    border: none;
+    padding: var(--padding-buttons);
+    border-radius: var(--border-radius-buttons);
+    cursor: pointer;
+    width: auto;
+}
+
+.filter-group select:hover {
+    background-color: var(--secondary-fill-color-hover);
+}
 
 .pagination {
     display: flex;

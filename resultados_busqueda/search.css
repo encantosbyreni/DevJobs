@@ -135,25 +135,28 @@ header hr {
     color: var(--titles-color);
     padding: 10px 30px 10px 30px;
     height: 100%;
-    width: 100%;
+    width: 80%;
     font-weight: 90%;
     font-display: bold;
     border-radius: 4px;
     border: 1px solid var(--lines-gray);
+}
+.search-bar input:focus {
+    outline: none;
 }
 .search-bar svg {
     fill: var(--fill-color);
     height: 15px;
     width: 15px;
     position: absolute;
-    left: 8px;
+    left: 76px;
     pointer-events: none;
 }
 .search-bar button {
     border: none;
     background-color: var(--fill-color);
     position: absolute;
-    right: 8px;
+    right: 76px;
     color: var(--titles-color);
     font-size: 11px;
     padding: var(--padding-buttons);

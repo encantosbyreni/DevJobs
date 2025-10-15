@@ -123,19 +123,24 @@ header hr {
 .search-bar {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     position: relative;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
 }
 .search-bar input {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
     border: none;
+    outline: none;
     background-color: var(--secondary-background-color);
     color: var(--titles-color);
     padding: 10px 30px 10px 30px;
     height: 100%;
-    width: 80%;
+    width: 60%;
+    min-width: 0;
     font-weight: 90%;
     font-display: bold;
     border-radius: 4px;
@@ -148,20 +153,156 @@ header hr {
     fill: var(--fill-color);
     height: 15px;
     width: 15px;
-    position: absolute;
-    left: 76px;
+    position: relative;
+    left: 5.5%;
     pointer-events: none;
 }
 .search-bar button {
     border: none;
     background-color: var(--fill-color);
     position: absolute;
-    right: 76px;
+    right: 4.5%;
     color: var(--titles-color);
     font-size: 11px;
     padding: var(--padding-buttons);
     border-radius: var(--border-radius-buttons);
     cursor: pointer;
+}
+@media(max-width: 1300px) {
+    .search-bar button {
+        right: 4.5%;
+    }
+    .search-bar svg {
+        left: 6%;
+    }
+}
+@media(max-width: 1250px) {
+    .search-bar button {
+        right: 5%;
+    }
+    .search-bar svg {
+        left: 6.2%;
+    }
+}
+@media(max-width: 1200px) {
+    .search-bar button {
+        right: 5%;
+    }
+    .search-bar svg {
+        left: 6.5%;
+    }
+}
+@media(max-width: 1150px) {
+    .search-bar button {
+        right: 5%;
+    }
+    .search-bar svg {
+        left: 6.5%;
+    }
+}
+@media(max-width: 1100px) {
+    .search-bar button {
+        right: 5.5%;
+    }
+    .search-bar svg {
+        left: 7%;
+    }
+}
+@media(max-width: 1050px) {
+    .search-bar button {
+        right: 5.5%;
+    }
+    .search-bar svg {
+        left: 7.5%;
+    }
+}
+@media(max-width: 1000px) {
+    .search-bar button {
+        right: 6%;
+    }
+    .search-bar svg {
+        left: 8%;
+    }
+}
+@media(max-width: 950px) {
+    .search-bar button {
+        right: 6.7%;
+    }
+    .search-bar svg {
+        left: 8.5%;
+    }
+}
+@media(max-width: 900px) {
+    .search-bar button {
+        right: 6.7%;
+    }
+    .search-bar svg {
+        left: 9%;
+    }
+}
+@media(max-width: 850px) {
+    .search-bar button {
+        right: 7%;
+    }
+    .search-bar svg {
+        left: 9.5%;
+    }
+}
+@media(max-width: 800px) {
+    .search-bar button {
+        right: 8%;
+    }
+    .search-bar svg {
+        left: 10%;
+    }
+}
+@media(max-width: 750px) {
+    .search-bar button {
+        right: 9%;
+    }
+    .search-bar svg {
+        left: 11%;
+    }
+}
+@media(max-width: 700px) {
+    .search-bar button {
+        right: 9.5%;
+    }
+    .search-bar svg {
+        left: 11.6%;
+    }
+}
+@media(max-width: 650px) {
+    .search-bar button {
+        right: 10%;
+    }
+    .search-bar svg {
+        left: 13%;
+    }
+}
+@media(max-width: 600px) {
+    .search-bar button {
+        right: 11%;
+    }
+    .search-bar svg {
+        left: 14%;
+    }
+}
+@media(max-width: 550px) {
+    .search-bar button {
+        right: 13.2%;
+    }
+    .search-bar svg {
+        left: 17%;
+    }
+}
+@media(max-width: 450px) {
+    .search-bar button {
+        right: 15%;
+    }
+    .search-bar svg {
+        left: 20%;
+    }
 }
 .search-bar button:hover {
     background-color: var(--secondary-fill-color-hover);

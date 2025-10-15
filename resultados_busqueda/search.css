@@ -346,7 +346,8 @@ header hr {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    margin-left: 65px;
+    margin-left: 6%;
+    margin-right: 5.5%;
 }
 .job-card {
     border: 1px solid var(--lines-gray);

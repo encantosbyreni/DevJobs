@@ -158,8 +158,14 @@ header hr {
     font-size: 11px;
     padding: var(--padding-buttons);
     border-radius: var(--border-radius-buttons);
+    cursor: pointer;
 }
-
+.search-bar button:hover {
+    background-color: var(--secondary-fill-color-hover);
+}
+.search-bar button:active {
+    background-color: var(--secondary-fill-color);
+}
 
 .pagination {
     display: flex;

@@ -86,6 +86,10 @@ header {
 .post-cv:hover {
     background-color: var(--secondary-fill-color-hover);
 }
+.post-cv:active {
+    background-color: var(--secondary-fill-color);
+    transform: scale(0.95);
+}
 .perfil-img {
     width: 45px;
     height: 45px;

@@ -316,6 +316,7 @@ header hr {
 }
 .search-bar button:active {
     background-color: var(--secondary-fill-color);
+    transform: scale(0.95);
 }
 .filters {
     display: flex;
@@ -363,7 +364,55 @@ header hr {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.job-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
 
+.company-details {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;  
+}
+.company-name {
+    color: var(--text-color-gray);
+    font-weight: lighter;
+}
+.job-location {
+    color: var(--text-color-gray);
+    font-weight: lighter;
+}
+.job-description{
+    color:var(--titles-color);
+    max-width: 85%;
+}
+.apply-button{
+    background-color: var(--fill-color);
+    color: var(--titles-color);
+    border: none;
+    border-radius: 5px;
+    padding: 9px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 90px;
+    height: 37px;
+    align-self: flex-end;
+
+}
+.job-title{
+    color: var(--titles-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.apply-button:hover {
+    background-color: var(--secondary-fill-color-hover);
+}
+.apply-button:active {
+    transform: scale(0.95);
+}
 .pagination {
     display: flex;
     justify-content: center;

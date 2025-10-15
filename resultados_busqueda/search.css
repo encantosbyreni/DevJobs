@@ -101,21 +101,21 @@ header hr {
     top: 70px;
     left: 0;
 }
-.hero {
+.hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.hero h1 {
+.hero-section h1 {
     color: var(--titles-color);
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 60px;
     margin-bottom: 0px;
 }
-.hero p {
+.hero-section p {
     color: var(--secondary-gray-color);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
